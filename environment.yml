@@ -1,0 +1,12 @@
+name: flashcard-generator
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - openai>=0.27.0
+      - requests>=2.25.1
+      - ollama
+      - piptoken
